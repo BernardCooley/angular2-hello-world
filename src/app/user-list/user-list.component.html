@@ -1,3 +1,6 @@
 <p>
-  <li *ngFor="let name of names">{{name}}</li>
+	<!-- <ul> -->
+  		<app-user-item *ngFor="let name of names" [name]="name">
+  		</app-user-item>
+  <!-- </ul> -->
 </p>
